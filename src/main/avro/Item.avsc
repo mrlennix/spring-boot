@@ -1,0 +1,11 @@
+{"namespace": "com.lennix.spring.boot.rest.rest_demo.models",
+ "type": "record",
+ "name": "Item",
+ "fields": [
+     {"name": "name", "type": ["string", "null"],"default":"null"},
+     {"name": "price",  "type": ["int", "null"],"default":"null"},
+     {"name": "quantity", "type": ["int", "null"],"default":"null"},
+     {"name": "color", "type": ["string", "null"],"default":"null"}
+ ]
+ 
+}
